@@ -1,0 +1,33 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #fcfcf4;
+    background: url("images/background.png");
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Dosis', 'sans-serif';
+    color: #f72585;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Montserrat', 'sans-serif';
+    color: #613f75;
+    font-weight: bold;
+}
+
+.choix {
+    color: #613f75;
+}
+
+.espace1 {
+    height: 100px;
+}
+
+.espace2 {
+    height: 30px;
+}

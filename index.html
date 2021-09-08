@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Montserrat:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <title>Petite Devinette</title>
+
+</head>
+
+<body>
+
+    <div class="container d-flex align-items-center flex-column">
+        <div class="espace1"></div>
+        <h1 class="text-center">Petite Devinette</h1>
+        <div class="espace2"></div>
+
+        <p class="text-center">Devine un nombre entre 1 et 100</p>
+        <p class="text-center">Tu as 7 tentatives pour trouver la bonne réponse! Bonne chance!</p>
+
+        <div class="row d-flex justify-content-center">
+            <label class="choix" for="number">Ton choix entre 1 et 100 : </label>
+            <input type="text" id="number">
+        </div>
+
+        <div class="row d-flex justify-content-center">
+            <input id="buttonSubmit" class="mt-4 btn btn-info btn-outline-dark" type="submit" value="Valider">
+        </div>
+
+        <div class="mamanP text-center">
+            <p class="rightOrFalse"></p>
+            <p class="hint"></p>
+        </div>
+
+        <div class="boutonRejouer row d-flex justify-content-center">
+            <div class="resetField btn"></div>
+        </div>
+
+    </div>
+
+    <script src="script.js" type="text/javascript"></script>
+</body>
+
+</html>
